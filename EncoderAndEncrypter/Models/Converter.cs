@@ -29,5 +29,21 @@ namespace EncoderAndEncrypter.Models
 
             return converted;
         }
+
+        /// <summary>
+        /// Convert a Binary text string to a Text string
+        /// </summary>
+        /// <param name="text">Binary encoded string</param>
+        /// <returns>Text string</returns>
+        public static string BinaryToString(string text)
+        {
+            List<byte> bytes = new List<byte>();
+
+            for (int i = 0; i < text.Length; i += 8)
+            {
+                bytes.Add(Convert.ToByte(text.Substring(i, 8), 2));
+            }
+            return Encoding.ASCII.GetString(bytes.ToArray());
+        }
     }
 }
