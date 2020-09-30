@@ -1,0 +1,13 @@
+C:\Users\Kelvin\Desktop\Course\01_Information_Encoding_Standards\Assignments\Assignment1-EncodingAndEncryption\EncoderAndEncrypter\obj\Debug\netcoreapp3.1\EncoderAndEncrypter.csprojAssemblyReference.cache
+C:\Users\Kelvin\Desktop\Course\01_Information_Encoding_Standards\Assignments\Assignment1-EncodingAndEncryption\EncoderAndEncrypter\obj\Debug\netcoreapp3.1\EncoderAndEncrypter.AssemblyInfoInputs.cache
+C:\Users\Kelvin\Desktop\Course\01_Information_Encoding_Standards\Assignments\Assignment1-EncodingAndEncryption\EncoderAndEncrypter\obj\Debug\netcoreapp3.1\EncoderAndEncrypter.AssemblyInfo.cs
+C:\Users\Kelvin\Desktop\Course\01_Information_Encoding_Standards\Assignments\Assignment1-EncodingAndEncryption\EncoderAndEncrypter\obj\Debug\netcoreapp3.1\EncoderAndEncrypter.csproj.CoreCompileInputs.cache
+C:\Users\Kelvin\Desktop\Course\01_Information_Encoding_Standards\Assignments\Assignment1-EncodingAndEncryption\EncoderAndEncrypter\bin\Debug\netcoreapp3.1\EncoderAndEncrypter.exe
+C:\Users\Kelvin\Desktop\Course\01_Information_Encoding_Standards\Assignments\Assignment1-EncodingAndEncryption\EncoderAndEncrypter\bin\Debug\netcoreapp3.1\EncoderAndEncrypter.deps.json
+C:\Users\Kelvin\Desktop\Course\01_Information_Encoding_Standards\Assignments\Assignment1-EncodingAndEncryption\EncoderAndEncrypter\bin\Debug\netcoreapp3.1\EncoderAndEncrypter.runtimeconfig.json
+C:\Users\Kelvin\Desktop\Course\01_Information_Encoding_Standards\Assignments\Assignment1-EncodingAndEncryption\EncoderAndEncrypter\bin\Debug\netcoreapp3.1\EncoderAndEncrypter.runtimeconfig.dev.json
+C:\Users\Kelvin\Desktop\Course\01_Information_Encoding_Standards\Assignments\Assignment1-EncodingAndEncryption\EncoderAndEncrypter\bin\Debug\netcoreapp3.1\EncoderAndEncrypter.dll
+C:\Users\Kelvin\Desktop\Course\01_Information_Encoding_Standards\Assignments\Assignment1-EncodingAndEncryption\EncoderAndEncrypter\bin\Debug\netcoreapp3.1\EncoderAndEncrypter.pdb
+C:\Users\Kelvin\Desktop\Course\01_Information_Encoding_Standards\Assignments\Assignment1-EncodingAndEncryption\EncoderAndEncrypter\obj\Debug\netcoreapp3.1\EncoderAndEncrypter.dll
+C:\Users\Kelvin\Desktop\Course\01_Information_Encoding_Standards\Assignments\Assignment1-EncodingAndEncryption\EncoderAndEncrypter\obj\Debug\netcoreapp3.1\EncoderAndEncrypter.pdb
+C:\Users\Kelvin\Desktop\Course\01_Information_Encoding_Standards\Assignments\Assignment1-EncodingAndEncryption\EncoderAndEncrypter\obj\Debug\netcoreapp3.1\EncoderAndEncrypter.genruntimeconfig.cache
