@@ -12,7 +12,7 @@ namespace EncoderAndEncrypter.Models
         /// </summary>
         /// <param name="data">String to convert</param>
         /// <returns>Binary encoded string</returns>
-        public static string StringToBinary2(string data)
+        public static string StringToBinary(string data)
         {
             string converted = string.Empty;
             // convert string to byte array
@@ -45,5 +45,25 @@ namespace EncoderAndEncrypter.Models
             }
             return Encoding.ASCII.GetString(bytes.ToArray());
         }
+
+        /// <summary>
+        /// An approach to ASCII to Hexadecimal conversion using ToString("X2")
+        /// </summary>
+        /// <param name="data">String to convert</param>
+        /// <returns></returns>
+        public static string StringToHex(string data)
+        {
+            StringBuilder sb = new StringBuilder();
+
+            byte[] bytearray = Encoding.ASCII.GetBytes(data);
+
+            foreach (byte bytepart in bytearray)
+            {
+                sb.Append(bytepart.ToString("X2"));
+            }
+
+            return sb.ToString().ToUpper();
+        }
+
     }
 }
