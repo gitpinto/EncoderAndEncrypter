@@ -121,7 +121,6 @@ namespace EncoderAndEncrypter.Models
         /// converts the string to byteArray
         /// <param name="text">String to convert</param>
         /// <returns>Byte Array of the string</returns>
-
         public static byte[] ConvertToByteArray(string text)
         {
             byte[] convertedByteArray = Encoding.Unicode.GetBytes(text);
@@ -131,8 +130,7 @@ namespace EncoderAndEncrypter.Models
         /// </summary>
         /// converts the byte array to string
         /// <param name="byteArray">String to convert</param>
-        /// <returns>Byte Array of the string</returns>
-
+        /// <returns>String converted from Byte array</returns>
         public static string ConvertToString(byte[] byteArray)
         {
             string convertedString = Encoding.Unicode.GetString(byteArray);
