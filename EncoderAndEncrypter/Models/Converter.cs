@@ -117,20 +117,33 @@ namespace EncoderAndEncrypter.Models
             }
         }
 
-        //converts the string to byteArray
+        /// </summary>
+        /// converts the string to byteArray
+        /// <param name="text">String to convert</param>
+        /// <returns>Byte Array of the string</returns>
+
         public static byte[] ConvertToByteArray(string text)
         {
             byte[] convertedByteArray = Encoding.Unicode.GetBytes(text);
             return convertedByteArray;
         }
 
-        //converts the byte array to string
+        /// </summary>
+        /// converts the byte array to string
+        /// <param name="byteArray">String to convert</param>
+        /// <returns>Byte Array of the string</returns>
+
         public static string ConvertToString(byte[] byteArray)
         {
             string convertedString = Encoding.Unicode.GetString(byteArray);
             return convertedString;
         }
-
+        /// </summary>
+        /// Encrypts the byte array with cipher specified times
+        /// <param name="fullNameBytes">Byte array to encrypt</param>
+        /// <param name="encryptionCipher">new[] { 1,2,3,4,5,6 }</param>
+        /// <param name="encryptionDepth">Depth of the encryption</param>
+        /// <returns>Encrypted String</returns>
         public static string DeepEncryptWithCipher(byte[] fullNameBytes, int[] encryptionCipher, int encryptionDepth)
         {
             //Encrypt fullNameBytes encryptionDepth times
@@ -145,9 +158,9 @@ namespace EncoderAndEncrypter.Models
         /// <summary>
         /// Applies a Cipher to a string
         /// </summary>
-        /// <param name="text">Text to encrypt</param>
+        /// <param name="fullNameBytes">Byte array to encrypt</param>
         /// <param name="encryptionCipher">new[] { 1,2,3,4,5,6 }</param>
-        /// <returns></returns>
+        /// <returns> encrypted byte array</returns>
         public static byte[] EncryptWithCipher(byte[] fullNameBytes, int[] encryptionCipher)
         {
             if (encryptionCipher == null || encryptionCipher.Length == 0)
@@ -180,7 +193,7 @@ namespace EncoderAndEncrypter.Models
         /// <summary>
         /// Decrypts a deep cipher encrypted string
         /// </summary>
-        /// <param name="originalText">Cipher encrypted string</param>
+        /// <param name="encryptedByteArray">Cipher encrypted byte array</param>
         /// <param name="encryptionCipher">Sequence of whole numbers in an array</param>
         /// <param name="encryptionDepth">Depth of the encryption</param>
         /// <returns>Decrypted string</returns>
@@ -196,11 +209,11 @@ namespace EncoderAndEncrypter.Models
         }
 
         /// <summary>
-        /// Decrypts a cipher encrypted string
+        /// Decrypts a cipher encrypted byte array
         /// </summary>
-        /// <param name="text"></param>
-        /// <param name="encryptionCipher"></param>
-        /// <returns></returns>
+        /// <param name="encryptedByteArray">Encrypted Byte array</param>
+        /// <param name="encryptionCipher">Sequence of whole numbers in an array</param>
+        /// <returns> Decrypted byte array</returns>
         public static byte[] DecryptWithCipher(byte[] encryptedByteArray, int[] encryptionCipher)
         {
             //Build byte array from the original byte array that will receive the encrypted values
